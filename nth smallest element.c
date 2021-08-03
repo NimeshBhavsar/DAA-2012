@@ -37,8 +37,6 @@ int main()
                 num[i] = num[j];
                 num[j] = a;
             }
-     for (int i = 0; i < n; ++i)
-            printf("%d\n", num[i]);
     printf("The %dth smallest element is: %d",k,num[k-1]);
     
     return 0;
